@@ -70,7 +70,7 @@ for y in range (len(tot)):
 print("\tYOUR TOTAL AMOUNT IS\t\t\t",sum)
 print("------------------------------------------------------------------")
 
-with open("E:\programming\PYTHON\CODE\WORK WITH EXCEL SHEETS\hotelS.csv","a",newline="") as hot:
+with open("https://github.com/GANESH9403/PYTHON/blob/main/hotelS.csv","a",newline="") as hot:
    
     w = csv.writer(hot)
     w.writerow("")
